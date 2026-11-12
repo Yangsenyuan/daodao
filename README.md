@@ -32,8 +32,15 @@ world/src/worlds  island 岛 · museum 博物馆 · diary 日记本（diary-page
 world/src/ui      overlay 界面层 · onboarding 新岛主引导（起名 + 授权专辑）
 ```
 
-> 图片和文字来自小红书公开笔记，仅用于本地原型演示；每件展品、每一篇都保留原作者和原帖链接。
-> 造字工坊是商业字体，这里只在本地演示里使用；如果要公开发布，需要先确认网页嵌入授权。
+## 线上地址与部署
+
+- 线上：https://daodao-iota.vercel.app（Vercel 项目 `senyuan/daodao`，只发布 `world/` 目录，全站 noindex）
+- 重新部署：在项目根目录运行 `npx vercel@50 deploy --prod`（本机 Node 18，需用 vercel@50；最新版要求 Node 20）
+- `*.vercel.app` 在中国大陆网络下被 DNS 污染，打不开；要在国内直接访问，需要绑定自己的域名（CNAME 指向 `cname.vercel-dns.com`）
+- GitHub 推送后自动部署：需要先在 GitHub 给 Vercel 应用开放这个仓库的权限，再运行 `npx vercel@50 git connect`
+
+> 图片和文字来自小红书公开笔记，仅用于原型演示；每件展品、每一篇都保留原作者和原帖链接，线上页面不被搜索引擎收录。
+> 造字工坊是商业字体，线上只嵌入了“岛”一个字；正式对外发布前需要确认网页嵌入授权。
 
 ---
 
