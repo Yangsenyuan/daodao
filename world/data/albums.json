@@ -1,0 +1,72 @@
+[
+ {
+  "id": "monet",
+  "album": "看展-莫奈",
+  "world": "museum",
+  "name": "睡莲巡回展",
+  "kind": "博物馆",
+  "count": 12,
+  "images": 51,
+  "cover": {
+   "src": "assets/covers/monet.jpg",
+   "w": 384,
+   "h": 512
+  }
+ },
+ {
+  "id": "grow",
+  "album": "成长-自我提升",
+  "world": "diary",
+  "name": "想成为的我",
+  "kind": "日记本",
+  "count": 12,
+  "images": 46,
+  "cover": {
+   "src": "assets/covers/grow.jpg",
+   "w": 384,
+   "h": 512
+  }
+ },
+ {
+  "id": "room",
+  "album": "家居-出租屋改造",
+  "world": "room",
+  "name": "我的小屋",
+  "kind": "房间",
+  "count": 12,
+  "images": 56,
+  "cover": {
+   "src": "assets/covers/room.jpg",
+   "w": 384,
+   "h": 512
+  }
+ },
+ {
+  "id": "kyoto",
+  "album": "旅行-京都",
+  "world": "street",
+  "name": "京都慢慢走",
+  "kind": "小街",
+  "count": 12,
+  "images": 58,
+  "cover": {
+   "src": "assets/covers/kyoto.jpg",
+   "w": 512,
+   "h": 512
+  }
+ },
+ {
+  "id": "live",
+  "album": "演唱会-现场",
+  "world": "stage",
+  "name": "出片后台",
+  "kind": "舞台",
+  "count": 12,
+  "images": 53,
+  "cover": {
+   "src": "assets/covers/live.jpg",
+   "w": 287,
+   "h": 512
+  }
+ }
+]

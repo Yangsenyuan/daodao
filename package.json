@@ -1,0 +1,21 @@
+{
+  "name": "shijian-collection-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node scripts/e2e.mjs",
+    "test:styles": "node scripts/styles.mjs",
+    "world": "node scripts/world/serve.mjs",
+    "world:build": "node scripts/world/build.mjs",
+    "world:check": "node scripts/world/check.mjs",
+    "world:font": "node scripts/world/font.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "subset-font": "^2.9.0",
+    "three": "^0.187.0"
+  }
+}
